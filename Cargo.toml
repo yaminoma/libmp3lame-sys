@@ -1,0 +1,7 @@
+[package]
+name = "libmp3lame-sys"
+version = "1.0.0"
+build = "build.rs"
+
+[build-dependencies]
+bindgen = ">=0.32"
